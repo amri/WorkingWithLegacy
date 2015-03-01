@@ -4,7 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 
 public class ARMDispatcher {
 
-	public void populate(HttpServletRequest request)
+	public void populate(ParameterSource request)
 	{
 		String[] values = request.getParameterValues(pageStateName);
 		if(values != null && values.length > 0)
@@ -23,3 +23,4 @@ public class ARMDispatcher {
 		return null;
 	}
 }
+
