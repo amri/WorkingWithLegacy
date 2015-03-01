@@ -5,5 +5,7 @@ public class TransactionManager {
 	public TransactionManager(Reader reader) {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public TransactionManager() {}
 
 }
