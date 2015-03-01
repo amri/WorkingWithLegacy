@@ -4,8 +4,12 @@ import java.util.List;
 
 public class PageLayout {
 
-	protected void rebindStyles() {
-		styles = StyleMaster.formStyles(template, id);
+	public void rebindStyles() {
+		styles = formStyles(template, id);
+	}
+	
+	protected List formStyles(StyleTemplate template, int id) {
+		return StyleMaster.formStyles(template, id);
 	}
 
 	private List styles;
