@@ -12,6 +12,8 @@ public class RCSWorkflowTest {
 		RCSWorkflow rcsWorkflow = new RCSWorkflow();
 		Packet packet = new Packet();
 		rcsWorkflow.validate(packet);
+		RCSWorkflow.validatePacket(packet);
+		
 	}
 
 }
