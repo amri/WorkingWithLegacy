@@ -1,7 +1,7 @@
 package com.amri.legacy.adapt_parameter;
 
 import javax.servlet.http.HttpServletRequest;
-
+//MAIN
 public class ARMDispatcher {
 
 	public void populate(ParameterSource request)

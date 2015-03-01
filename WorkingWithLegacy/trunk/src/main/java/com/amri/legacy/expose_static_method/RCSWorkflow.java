@@ -1,5 +1,6 @@
 package com.amri.legacy.expose_static_method;
 
+//MAIN
 public class RCSWorkflow {
 
 	public void validate(Packet packet) throws Exception
