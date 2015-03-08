@@ -16,6 +16,6 @@ public class Scheduler extends SchedulingServices {
 	}
 
 	private void validate(ScheduleItem item) throws ConflictException {
-		
+		// MAKE CALLS TO A DATABASE <== DEPENDENCY
 	}
 }
