@@ -5,7 +5,13 @@ public class MailChecker {
 
 	public void setupMail()
 	{
-		mailServer = new MailServer();
+		setupMail(new MailServer());
+	}
+
+	public void setupMail(MailServer mailServer)
+	{
+		this.mailServer = mailServer;
 		mailServer.setup();
 	}
+
 }
