@@ -10,10 +10,18 @@ import com.amri.legacy.introduce_instance_delegator.Money;
 public class BankingServicesTest {
 
 	@Test
-	public void test() {
+	public void testWithStatic() {
 		int userID = 0;
 		Money amount = null;
 		BankingServices.updateAccountBalance(userID, amount);
 	}
 
+	@Test
+	public void testWithInstance() {
+		int userID = 0;
+		Money amount = null;
+		BankingServices services = new BankingServices();
+		
+		services.updateBalance(userID, amount);
+	}
 }

@@ -6,4 +6,10 @@ public class BankingServices {
 	{
 		//
 	}
+	
+	public void updateBalance(int userID, Money amount)
+	{
+		this.updateAccountBalance(userID, amount);
+		
+	}
 }
